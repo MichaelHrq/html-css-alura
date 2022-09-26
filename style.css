@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { font-family: 'Montserrat' , sans-serif }
+
 header {
     background: #bbbbbb;
     padding: 20px 0
@@ -153,3 +160,26 @@ td , th{
     border: 1px solid #000000;
     padding: 7px 15px;
 }
+
+/* CSS da pagina inicial */
+
+.banner { width: 100% }
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0.5em 0 1em;
+    clear: left;
+}
+
+.principal p { margin: 0 0 1em }
+.principal strong { font-weight: bold}
+.principal em { font-style: italic }
+
+.principal .utensilios {
+    width: 125px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagemBeneficios { width: 60% }
